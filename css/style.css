@@ -77,6 +77,7 @@ header .profile {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 5px;
 }
 
 /* Shared styling for cart, notification, and profile icons */
@@ -500,6 +501,7 @@ header .profile .profile_info h3 {
     margin-top: 30px;
     padding-bottom: 20px;
     border-bottom: 1px solid #E4E4E4;
+   
 }
 
 .box5 p {

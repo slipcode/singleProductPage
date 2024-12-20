@@ -123,11 +123,18 @@
 
     /* .box6 */
     .box6 {
+
         overflow: hidden;
         margin-top: 20px;
         padding-bottom: 10px;
         justify-content: space-between;
+        /* for styte feature */
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        background: rgb(255, 255, 255);
     }
+
 
     .box6 .add-to-cart {
         padding: 0 50px;
