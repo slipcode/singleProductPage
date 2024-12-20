@@ -81,57 +81,8 @@
         padding-bottom: 10px;
         justify-content: space-between;
     }
-
-    .box7 {
-        height: 126px;
-        width: 94%;
-        border: 1px solid #E4E4E4;
-        border-radius: 10px;
-        padding: 12px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-    .box7 div {
-        display: flex;
-        border-bottom: 1px solid #E4E4E4;
-        flex-direction: row;
-        padding-bottom: 20px;
-    }
-
-    .box7 div:last-child {
-        border: none;
-        padding: 0;
-    }
-
-    .box7 div span {
-        margin-left: 10px;
-    }
-
-    .box7 div i {
-        margin-top: 2px;
-        color: #D75951;
-        font-size: 12px;
-    }
-
-    .box7 div h4 {
-        color: #1D364D;
-        font-size: 12px;
-    }
-
-    .box7 div p,
-    .box7 div a {
-        color: #726C6C;
-        font-size: 10px;
-        margin-top: 5px;
-    }
-
-    main .related-product {
+    .box7 {  
         width: 100%;
-        height: 20px;
-        margin-top: 150px;
-        background: #000;
     }
 
 }
