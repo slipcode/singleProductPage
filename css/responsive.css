@@ -1,0 +1,180 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    header .left_side nav ul,
+    header .profile .profile_info p,
+    header .profile .profile_info h3 {
+        display: none;
+    }
+
+    .container {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+  
+    .container .gallary {
+        width: 100%;
+        height: 500px;
+
+    }
+
+
+    .container .gallary .defualt {
+        width: 100%;
+
+    }
+
+
+
+
+
+
+    /* ---------------- Product Information Section ---------------- */
+    /* Placeholder styling for product information */
+    .container .product-info {
+        width: 94%;
+       
+        
+    }
+
+
+
+
+    /* box 2 */
+    .product-info .product-itle-and-reviwe {
+        margin-top: 20px;
+        padding-bottom: 10px;
+
+    }
+
+
+
+    .product-info .product-itle-and-reviwe .white-list div:first-child {
+        border-radius: 5px;
+
+    }
+
+    /* box3 */
+    .box3 {
+        overflow: hidden;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        
+    }
+
+    .product-info .price-star-riviwe {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .price-star-riviwe div:last-child .icon i {
+        border-radius: 20px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    /* box 4 */
+    .product-info .box4 {
+
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .product-info .box4 .container {
+        flex-direction: row;
+    }
+
+
+
+  
+    /* box5 */
+    .box5 {
+
+        margin-top: 20px;
+        padding-bottom: 10px;  
+    }
+
+
+    /* .box6 */
+
+    .box6 {
+        overflow: hidden;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        justify-content: space-between;
+    }
+
+    
+    .box7 {
+
+        height: 126px;
+        width: 94%;
+        border: 1px solid #E4E4E4;
+        border-radius: 10px;
+        padding: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .box7 div {
+        display: flex;
+        border-bottom: 1px solid #E4E4E4;
+        flex-direction: row;
+        padding-bottom: 20px;
+    }
+
+    .box7 div:last-child {
+        border: none;
+        padding: 0;
+    }
+
+    .box7 div span {
+        margin-left: 10px;
+    }
+
+    .box7 div i {
+        margin-top: 2px;
+        color: #D75951;
+        font-size: 12px;
+    }
+
+    .box7 div h4 {
+        color: #1D364D;
+        font-size: 12px;
+    }
+
+    .box7 div p,
+    .box7 div a {
+        color: #726C6C;
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    main .related-product {
+        width: 100%;
+        height: 20px;
+        margin-top: 150px;
+        background: #000;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
