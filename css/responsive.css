@@ -8,53 +8,32 @@
     }
 
     .container {
-
         flex-direction: column;
         align-items: center;
     }
 
-   
-  
     .container .gallary {
         width: 100%;
         height: 500px;
-
+        overflow: hidden;
     }
-
 
     .container .gallary .defualt {
         width: 100%;
-
     }
 
-
-
-
-
-
-    /* ---------------- Product Information Section ---------------- */
-    /* Placeholder styling for product information */
     .container .product-info {
         width: 94%;
-       
-        
     }
-
-
-
 
     /* box 2 */
     .product-info .product-itle-and-reviwe {
         margin-top: 20px;
         padding-bottom: 10px;
-
     }
-
-
 
     .product-info .product-itle-and-reviwe .white-list div:first-child {
         border-radius: 5px;
-
     }
 
     /* box3 */
@@ -62,7 +41,6 @@
         overflow: hidden;
         margin-top: 20px;
         padding-bottom: 10px;
-        
     }
 
     .product-info .price-star-riviwe {
@@ -82,7 +60,6 @@
 
     /* box 4 */
     .product-info .box4 {
-
         margin-top: 20px;
         padding-bottom: 10px;
     }
@@ -90,20 +67,14 @@
     .product-info .box4 .container {
         flex-direction: row;
     }
-
-
-
-  
     /* box5 */
     .box5 {
 
         margin-top: 20px;
-        padding-bottom: 10px;  
+        padding-bottom: 10px;
     }
 
-
     /* .box6 */
-
     .box6 {
         overflow: hidden;
         margin-top: 20px;
@@ -111,9 +82,7 @@
         justify-content: space-between;
     }
 
-    
     .box7 {
-
         height: 126px;
         width: 94%;
         border: 1px solid #E4E4E4;
