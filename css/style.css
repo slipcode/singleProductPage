@@ -42,6 +42,7 @@ header .left_side .site_logo {
     background: url(../img/site_logo.png) no-repeat center center / contain;
     height: 30px;
     width: 150px;
+    margin-left: -15px;
     cursor: pointer;
     transition: 0.3s;
 }
