@@ -46,10 +46,8 @@ header .left_side .site_logo {
     transition: 0.3s;
 }
 
-/* Logo hover effect: Slight scaling */
-header .left_side .site_logo:hover {
-    transform: scale(1.2);
-}
+
+
 
 /* Navigation menu inside the header */
 header .left_side nav ul {
@@ -105,6 +103,14 @@ header .profile i:nth-child(2) {
     color: #101F37;
 }
 
+header .profile i.fa-bars{
+    display: none;
+    color: white;
+    background: #b36868;
+    align-items: center;
+}
+
+
 /* Profile information section */
 header .profile .profile_info p {
     font-size: 9px;
@@ -118,6 +124,7 @@ header .profile .profile_info h3 {
     font-weight: 600;
     color: #002f5e;
 }
+
 
 /* ---------------- Main Container Section ---------------- */
 /* Main layout container */
@@ -198,7 +205,7 @@ header .profile .profile_info h3 {
 /* Placeholder styling for product information */
 .container .product-info {
     width: 445px;
-    height: 100svh;
+    height: 100vh;
     border-radius: 6px;
 }
 
@@ -503,6 +510,9 @@ header .profile .profile_info h3 {
 .box5 .size {
     display: flex;
     column-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 
 .box5 .size input {
@@ -654,11 +664,4 @@ header .profile .profile_info h3 {
     color: #726C6C;
     font-size: 10px;
     margin-top: 5px;
-}
-
-main .related-product {
-    width: 100%;
-    height: 20px;
-    margin-top: 150px;
-    background: #000;
 }
